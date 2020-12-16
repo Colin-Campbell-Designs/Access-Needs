@@ -1,0 +1,23 @@
+.section {
+   padding: 0 1em;
+   margin-bottom: 8em;
+
+   &__black {
+       width: 100%;
+       background: $color-black;
+   }
+
+   &__BG-image {
+       height: 80em;
+       background: url('/images/images/bg-image.jpg');
+       background-size: cover;
+       background-position: center;
+       background-attachment: fixed;
+       margin-bottom: 0;
+   }
+}
+
+    
+
+   
+

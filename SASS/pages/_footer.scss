@@ -1,0 +1,131 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background: $color-black;
+    color: $color-white;
+    padding: 5em  ;
+    display: flex;
+    
+    align-items: center;
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: open sans;
+        font-size: 1.7rem;
+        font-weight: bold;
+        margin-bottom: 3em;
+    }
+
+    &__left {
+        width: 47.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50em;
+    }
+
+    &__nav {
+        list-style: none;
+    }
+
+    &__nav-item   {
+        color: $color-white;
+        font-size: 1.8rem;
+        text-decoration: none;
+        margin-bottom: 1em;
+    }
+
+    &__nav--link  {
+        color: $color-white;
+    }
+
+    &__logobox {
+        height: 20em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    &__logo {
+        width: 100%;
+        max-width: 20em;
+    }
+
+    .termBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 1.2rem;
+    }
+
+    .terms__link   {
+        color: $color-white;
+    }
+
+    &__right {
+        width: 47.7%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        
+    }
+
+    &__contactBox {
+        text-align: right;
+        font-size: 1.8rem;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        p {
+            margin-bottom: 1em;
+        }
+
+        .contact {
+            color: $color-primary;
+            text-decoration: underline;
+        }
+    }
+
+    .socialBox {
+        font-size: 1.5rem;
+    }
+
+    .social-iconBox {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 1em;
+
+        .social-icon {
+            width: 4em;
+        }
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .footer__right {
+        padding-right: 2em;
+    }
+}
+
+@media (max-width:600px) {
+   .footer .termBox  {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer__logo {
+        max-width:15em ;
+        margin-bottom: 2em;
+    }
+}
+

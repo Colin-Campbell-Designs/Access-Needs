@@ -1,0 +1,131 @@
+.main-Heading__white {
+    font-size: 5.5rem;
+    font-family: open Sans;
+    color: $color-white;
+    text-shadow: rgba(0, 0, 0, 0.4) 0em .4rem .5rem;
+
+    &--sub {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 3.5rem;
+        color: $color-white;
+        text-shadow: rgba(0, 0, 0, 0.4) 0em .4rem .5rem;
+    }
+}
+
+.section__heading--white {
+    font-family: open sans;
+    font-size: 4rem;
+    margin: 1em .5em;
+}
+
+.section__heading--black {
+    font-family: open sans;
+    font-size: 5rem;
+    color: $color-white;
+    padding: 1em 0em;
+}
+
+.text--black {
+    color: $color-white;
+}
+
+
+.text {
+    font-family: lato;
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin: 0 1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.slideout-text {
+    width: 50%;
+}
+
+.accessories-text {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pickup-sub {
+    font-family: lato;
+    font-size: 2.3rem;
+    color: $color-white;
+}
+
+@media (max-width:768px) {
+    .section__heading--black {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .pickup-sub {
+        font-size: 2rem;
+        padding: 0 1em;
+    }
+
+    .text--black {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:650px){
+    .main-Heading__white {
+        font-size: 4.5rem;
+        text-align: center;
+    }
+
+    .main-Heading__white--sub {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width:570px){
+    .main-Heading__white {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .main-Heading__white--sub {
+        font-size: 2.75rem;
+        text-align: center;
+    }
+
+    .slideout-text {
+        width: 100%;
+        padding: 0 1em;
+        text-align: center;
+    }
+
+    .section__heading--black {
+        font-size: 3.5rem;
+        padding: 1 .5em;
+    }
+}
+
+@media (max-width:370px){
+    .main-Heading__white {
+        font-size: 3.5rem;
+        text-align: left;
+        padding-left: 1.2em;
+    }
+
+    .main-Heading__white--sub {
+        font-size: 2.75rem;
+        text-align: center;
+    }
+
+    .section__heading--black {
+        font-size: 2.75rem;
+        text-align: center;
+    }
+}
+

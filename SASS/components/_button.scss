@@ -1,0 +1,24 @@
+.video-btn {
+    font-size: 1.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: $color-black;
+    text-decoration: underline;
+    margin-top: 3em;
+}
+
+.btn-submit {
+    padding: 1rem;
+    font-size: 2.5rem;
+    background: $color-primary;
+    color: $color-white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: .2em;
+
+    &:hover, &:focus {
+        transition: all .3s ease;
+        box-shadow: 0em .2em .2em rgba(0, 0, 0, 0.5);
+    }
+}

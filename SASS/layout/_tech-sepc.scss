@@ -1,0 +1,27 @@
+.tech__subHeader-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+    h2 {
+        margin-left: 33%;
+        font-size: 2.5rem;
+        font-family: lato;
+    }
+}
+
+.tech__table {
+    margin-top: 3em;
+    padding: 1em;
+
+     .bold {
+        font-size: 1.8rem;
+    }
+
+    &--pdf {
+        width: 5em;
+        margin: 0 auto;
+    }
+
+    
+}

@@ -1,0 +1,42 @@
+.accessories__main {
+    width: 100%;
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+.video-container {
+   display: none;
+}
+
+.section__motorHome__full-image {
+    height: 60em;
+    background: url('/images/images/motorHomes-mid.jpg');
+    background-size: cover;
+    background-position: left bottom;
+}
+
+.pickup-loading {
+    width: 100%;
+    max-width: 80em;
+    margin: 5em auto;
+}
+
+.feature-contact-img {
+    width: 100;
+    max-width: 20em;
+    margin: 1em 1em 0em 0em;
+}
+
+@media(max-width: 990px) {
+     iframe{
+        width: 100%;
+        max-width: 90em;
+    }
+}
+
+@media (max-width: 768px){
+    .vans-img {
+        margin-top: 3em;
+    }
+}
+

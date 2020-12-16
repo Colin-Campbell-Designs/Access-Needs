@@ -1,0 +1,43 @@
+.header{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+
+    &__homePage {
+        background: url('/images/images/header_bg.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__textBox {
+        max-width: 90em;
+        text-align: right;
+    }
+
+    &__motorhome{
+        background: url('/images/images/motorHomes-header.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__van {
+        background: url('/images/images/van-headerBG.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__trailer {
+        background: url('/images/images/traiers-head-img.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .header__textbox .container {
+       border: solid red 1px;
+        max-width: 60em;
+        text-align: center;
+    }
+}
+
