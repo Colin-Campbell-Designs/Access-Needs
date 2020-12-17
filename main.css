@@ -384,7 +384,7 @@ h1, h2, h3 {
 
 .section__motorHome__full-image {
   height: 60em;
-  background: url("/images/images/motorHomes-mid.jpg");
+  background: url("images/images/motorHomes-mid.jpg");
   background-size: cover;
   background-position: left bottom;
 }
@@ -1141,7 +1141,7 @@ form {
 }
 
 .header__homePage {
-  background: url("/images/images/header_bg.jpg");
+  background: url("images/images/header_bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -1152,19 +1152,19 @@ form {
 }
 
 .header__motorhome {
-  background: url("/images/images/motorHomes-header.jpg");
+  background: url("images/images/motorHomes-header.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .header__van {
-  background: url("/images/images/van-headerBG.jpg");
+  background: url("images/images/van-headerBG.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .header__trailer {
-  background: url("/images/images/traiers-head-img.jpg");
+  background: url("images/images/traiers-head-img.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -1189,7 +1189,7 @@ form {
 
 .section__BG-image {
   height: 80em;
-  background: url("/images/images/bg-image.jpg");
+  background: url("images/images/bg-image.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
