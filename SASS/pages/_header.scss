@@ -15,7 +15,7 @@
     }
 
     &__motorhome{
-        background: url('/images/images/motorHomes-header.jpg');
+        background: url('images/images/motorHomes-header.jpg');
         background-size: cover;
         background-position: center;
     }
@@ -35,7 +35,6 @@
 
 @media screen and (max-width: 670px) {
     .header__textbox .container {
-       border: solid red 1px;
         max-width: 60em;
         text-align: center;
     }

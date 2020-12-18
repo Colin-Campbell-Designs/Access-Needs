@@ -698,7 +698,6 @@ h1, h2, h3 {
 
 .dis {
   width: 20em;
-  border: solid red 1px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1152,7 +1151,7 @@ form {
 }
 
 .header__motorhome {
-  background: url("/images/images/motorHomes-header.jpg");
+  background: url("images/images/motorHomes-header.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -1171,7 +1170,6 @@ form {
 
 @media screen and (max-width: 670px) {
   .header__textbox .container {
-    border: solid red 1px;
     max-width: 60em;
     text-align: center;
   }
