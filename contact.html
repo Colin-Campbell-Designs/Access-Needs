@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +15,7 @@
 <body>
 
     <nav class="side-menu" id="side-menu">
-        <img src="images/images/black-logo.png" alt="Access Needs Logo" class="side-menu__logo">
+        <img src="images/black-logo.png" alt="Access Needs Logo" class="side-menu__logo">
         <ul class="side-menu__list">
             <li class="side-menu__item"><a href="index.html">Home</a></li>
            <li class="side-menu__item"><a href="mortorhomes.html">Motorhomes</a></li>
@@ -29,7 +32,7 @@
 
 
     <nav class="main-menu">
-        <img src="images/images/black-logo.png" alt="Access Needs Logo" class="main-menu__logo">
+        <img src="images/black-logo.png" alt="Access Needs Logo" class="main-menu__logo">
         <ul class="main-menu__list">
             <li class="main-menu__item"><a href="index.html">Home</a></li>
            <li class="main-menu__item"><a href="mortorhomes.html">Motorhomes</a></li>
@@ -48,7 +51,7 @@
 
    
     <section class="section section__frequently container">
-        <h1 class="section__heading--white center">Frequently asked questions</h1>
+        <h1 class="section__heading--white center my-top-big">Frequently asked questions</h1>
       <div class="options">
           <div class="option-prices active">Prices / Ordering</div>
           <div class="option-technical">Technical questions</div>
@@ -146,7 +149,7 @@
         <h1 class="section__heading--white center">Manufacturer / Head Office</h1>
       <div class="topRow flex-container">
         <div class="dis">
-            <img src="images/images/neo.png" alt="" class="neo-logo">
+            <img src="images/neo.png" alt="" class="neo-logo">
             <div class="dis__country">Netherlands</div>
             <div class="dis__company">Neo-Dyne B.V.</div>
             <a href="sales@neo-dyne.com" class="dis__email" type="email">sales@neo-dyne.com</a>
@@ -209,12 +212,12 @@
         <p class="small center">Please make sure you enter correctly, otherwise we will be unable to send you a reply.</p>
 
         <div class="form-container container my-top-medium"></div>
-        <form action="">
+        <form action="contact.php" method="POST">
             <div class="form-top my-bottom-small">
-                <input required type="text" class="form-input " id="name" placeholder="Yout Name*">
-                <input required type="text" class="form-input mx-left-small" id="email" placeholder="Your Email*">
+                <input required type="text" name="name" class="form-input " id="name" placeholder="Yout Name*">
+                <input required type="text" name="email" class="form-input mx-left-small" id="email" placeholder="Your Email*">
             </div>
-            <input required type="number" class="form-input" id="phone" placeholder="Your Phone No.">
+            <input required type="number" name="phone" class="form-input" id="phone" placeholder="Your Phone No.">
             <textarea required class="form-input" name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
             <button class="btn btn-submit" type="submit">Get In Touch</button>
         </form>

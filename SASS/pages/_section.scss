@@ -15,7 +15,15 @@
        background-attachment: fixed;
        margin-bottom: 0;
    }
+
+   &__carousel {
+       margin-bottom: 0;
+       position: relative;
+       z-index: -1;
+   }
 }
+
+
 
     
 

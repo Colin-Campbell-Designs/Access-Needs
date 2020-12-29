@@ -1,0 +1,46 @@
+.terms-text {
+    font-size: 1.6rem;
+    margin-bottom: 1.6em;
+    padding: 0 2.5em;
+}
+
+.terms-link {
+    color: $color-black;
+    text-decoration: underline;
+}
+
+.privacy-table  {
+    margin: 0 2.5em;
+}
+
+.privacyTableHeader {
+    background: #dedede;
+    color: #2d448f;
+    text-align: left;
+    padding: .5em;
+    font-size: 1.5rem;
+}
+
+.privacy-table .light {
+    background: #f6f6f6;
+    color: $color-black;
+    padding: 1.25em .5em;
+}
+
+.privacy-table .light:hover {
+    background: $color-white;
+}
+
+.privacy-table .dark {
+    background: #efefef;
+    color: $color-black;
+    padding: 1.25em .5em;
+}
+
+.privacy-table .dark:hover {
+    background: $color-white;
+}
+
+.privacy-list li {
+    list-style: disc;
+}
