@@ -1,3 +1,7 @@
+nav {
+    z-index: 999;
+}
+
 .main-menu {
     width: 100%;
     max-width: 90em;
@@ -13,12 +17,12 @@
     position: fixed;
     top: 2%;
     left: 50%;
-    transform: translate(-50%, 0%);;
+    transform: translate(-50%, 0%);
    
 
 
     &__logo {
-        width: 8em;
+        width: 9em;
         margin-left: 2.5em;
     }
 

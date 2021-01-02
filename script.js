@@ -43,6 +43,25 @@ const container2 = document.querySelector('.feature-container-2');
 const showContainer = document.querySelectorAll('.show-container');
 const hideContainer = document.querySelectorAll('.hide-container');
 
+const arrowPrice = Array.from(document.getElementsByClassName('arrow-container'));
+
+console.log(arrowPrice.length)
+
+
+arrowPrice.forEach(arrow => {
+    arrow.addEventListener('click', e => {
+        e.preventDefault();
+        e.target.parentElement.nextSibling.nextElementSibling.classList.toggle('show');
+    })
+})
+
+
+
+
+
+
+
+
 optionTechnical.addEventListener('click', () => {
     optionTechnical.classList.add('active');
     optionPrices.classList.remove('active');
@@ -57,13 +76,28 @@ optionPrices.addEventListener('click', () => {
     container1.style.display = 'block';
 });
 
- showContainer.forEach(con => {
-     con.addEventListener('click', e => {
-       e.target.nextElementSibling.classList.toggle('show');
+//  showContainer.forEach(con => {
+//      con.addEventListener('click', e => {
+//        e.target.nextElementSibling.classList.toggle('show');
       
-     });
- });
+//      });
+//  });
 
+// arrowPrice.forEach(con => {
+//     con.addEventListener('click', e => {
+//     //   e.target.parentElement.nextSibling.classList.toggle('show');
+
+//     console.log('clicked');
+     
+//     });
+// });
+
+
+// arrowPrice1.addEventListener('click', showText);
+
+// function showText(){
+
+// }
 
 
 

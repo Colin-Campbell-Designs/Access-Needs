@@ -42,6 +42,27 @@ h1, h2, h3 {
   margin: 0 auto;
 }
 
+.thankyou-logo {
+  width: 100%;
+  max-width: 22.5em;
+}
+
+.logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 50vh;
+}
+
 @media (max-width: 900px) {
   html {
     font-size: 57.5%;
@@ -387,7 +408,7 @@ h1, h2, h3 {
 }
 
 .video-container {
-  display: none;
+  width: 100%;
 }
 
 .section__motorHome__full-image {
@@ -445,6 +466,7 @@ h1, h2, h3 {
   font-weight: bold;
   margin-bottom: 1em;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .active {
@@ -461,10 +483,26 @@ h1, h2, h3 {
   background: #ececec;
   margin: 1em auto;
   cursor: pointer;
+  position: relative;
 }
 
 .show-container:hover .feature-number {
   background: #ccc;
+}
+
+.arrow-container {
+  position: absolute;
+  right: 2em;
+  bottom: .5em;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.arrow-container:hover {
+  color: red;
+  font-size: 1.4rem;
 }
 
 .feature-number {
@@ -480,9 +518,28 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
+.feature-innerContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .feature-text {
   font-size: 2rem;
   margin-left: 1em;
+}
+
+.feature-arrow {
+  font-size: 2em;
+  padding-right: 2em;
+}
+
+.feature-arrow:hover {
+  color: red;
 }
 
 .hide-container {
@@ -937,8 +994,12 @@ form {
   display: grid;
   -ms-grid-columns: (minmax(30em, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
-  grid-auto-rows: 22em;
+  grid-auto-rows: 30em;
   gap: 2em;
+}
+
+nav {
+  z-index: 999;
 }
 
 .main-menu {
@@ -967,7 +1028,7 @@ form {
 }
 
 .main-menu__logo {
-  width: 8em;
+  width: 9em;
   margin-left: 2.5em;
 }
 

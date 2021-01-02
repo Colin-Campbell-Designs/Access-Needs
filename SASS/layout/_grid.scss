@@ -10,6 +10,6 @@
 .contact__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
-    grid-auto-rows: 22em;
+    grid-auto-rows: 30em;
     gap:  2em;
 }

@@ -18,6 +18,7 @@
         font-weight: bold;
         margin-bottom: 1em;
         cursor: pointer;
+        text-decoration: underline;
 }
 
 .active {
@@ -30,11 +31,26 @@
     background: #ececec;
     margin: 1em auto;
     cursor: pointer;
+    position: relative;
 
     &:hover {
      .feature-number {
             background: #ccc;
         }
+    }
+ }
+
+ .arrow-container {
+    position: absolute;
+    right: 2em;
+    bottom: .5em;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    transition: all .2s;
+
+    &:hover {
+        color: red;
+        font-size:1.4rem
     }
  }
 
@@ -47,9 +63,24 @@
     font-weight: bold;
  }
 
+ .feature-innerContainer {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+
  .feature-text {
      font-size: 2rem;
      margin-left: 1em;
+ }
+
+ .feature-arrow {
+     font-size: 2em;
+     padding-right: 2em;
+
+     &:hover {
+         color: red;
+     }
  }
 
 .hide-container {
