@@ -424,6 +424,10 @@ h1, h2, h3 {
   margin: 5em auto;
 }
 
+.pickup-list {
+  list-style: disc;
+}
+
 .feature-contact-img {
   width: 100;
   max-width: 20em;
