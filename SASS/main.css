@@ -568,6 +568,11 @@ h1, h2, h3 {
   display: none;
 }
 
+.feature-link {
+  color: #000;
+  text-decoration: underline;
+}
+
 .accessories {
   color: #fff;
 }
@@ -1313,7 +1318,6 @@ nav {
   font-family: open sans;
   font-size: 1.7rem;
   font-weight: bold;
-  margin-bottom: 3em;
 }
 
 .footer__left {
@@ -1426,6 +1430,14 @@ nav {
 .footer__contactBox .contact {
   color: #E6CE3C;
   text-decoration: underline;
+}
+
+.footer__contactBox .phone-box {
+  margin-bottom: 1em;
+}
+
+.footer__contactBox .phone-box p {
+  margin-bottom: 0;
 }
 
 .footer .socialBox {
