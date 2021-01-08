@@ -1008,7 +1008,7 @@ form {
 }
 
 nav {
-  z-index: 999;
+  z-index: 9;
 }
 
 .main-menu {
@@ -1112,7 +1112,7 @@ nav {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  z-index: 1;
+  z-index: 10;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-100%);
