@@ -25,13 +25,13 @@
 //  */
 
 // an email address that will be in the From field of the email.
-$from = 'Contact form of porteosselfloadingmotorcycleramp.co.uk';
+$from = '$email';
 
 // an email address that will receive the email with the output of the form
 $sendTo = 'sales@accessneeds.co.uk';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'New message from contact form ';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
@@ -55,7 +55,7 @@ try
 
     if(count($_POST) == 0) throw new \Exception('Form is empty');
             
-    $emailText = "You have a new message from your contact form  ";
+    $emailText = "You have a new message from your contact form   ";
 
     foreach ($_POST as $key => $value) {
         // If the field exists in the $fields array, include it in the email 
@@ -66,7 +66,7 @@ try
 
     // All the neccessary headers for the email.
     $headers = array('Content-Type: text/plain; charset="UTF-8";',
-        'From: ' . $from,
+        'From: ' . $email,
         'Reply-To: ' . $from,
         'Return-Path: ' . $from,
     );
